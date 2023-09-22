@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Lessons with Larisa`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.lessonswithlarisa.com`,
   },
   plugins: ["gatsby-plugin-sass"]
 };

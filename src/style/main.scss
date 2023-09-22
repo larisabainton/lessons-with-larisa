@@ -1,0 +1,22 @@
+@import 'constants';
+
+@import 'about';
+@import 'age-disclaimer';
+@import 'contact';
+@import 'cover';
+@import 'header';
+@import 'instruments';
+@import 'rates';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: $text-font-size;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}

@@ -1,9 +1,12 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Guitar = () => {
     return (
         <li className="instruments_list-item">
-            <div className="instruments_list-item_image"></div>
+            <div className="instruments_list-item_image">
+                <StaticImage src="../images/guitar.jpg" alt="Larisa playing guitar" />
+            </div>
             <div className="instruments_list-item_title">Guitar</div>
             <div className="instruments_list-item_description">Guitar lessons will primarily focus on learning chords, finger-picking, and songwriting. Learn how to accompany yourself on the guitar while singing, figure out the chords from your favorite songs, and more!</div>
         </li>
@@ -13,7 +16,9 @@ const Guitar = () => {
 const Piano = () => {
     return (
         <li className="instruments_list-item">
-            <div className="instruments_list-item_image"></div>
+            <div className="instruments_list-item_image">
+                <StaticImage src="../images/piano.png" alt="Person at the piano"/>
+            </div>
             <div className="instruments_list-item_title">Piano</div>
             <div className="instruments_list-item_description">Piano lessons begin with the student's goals: whether you want to play along to your favorite pop songs, learn Beethoven sonatas, or write your own songs. All students can expect to improve (or learn) reading music, develop a technique to play without injury, and learn musicianship skills.</div>
         </li>
@@ -23,7 +28,9 @@ const Piano = () => {
 const Voice = () => {
     return (
         <li className="instruments_list-item">
-            <div className="instruments_list-item_image"></div>
+            <div className="instruments_list-item_image">
+                <StaticImage src="../images/voice.jpg" alt="Larisa performing in voice recital"/>
+            </div>
             <div className="instruments_list-item_title">Voice</div>
             <div className="instruments_list-item_description">In voice lessons you can expect to learn the fundamentals of singing technique: vowels, breath, and phonation! For younger students we will also learn to read music and practice sight singing. But mostly, lessons will be spent working on repertoire. Learn how to sing the songs you love!</div>
         </li>

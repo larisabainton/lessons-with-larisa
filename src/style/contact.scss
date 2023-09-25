@@ -1,4 +1,14 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
 .contact_title {
     font-size: $subtitle-1-font-size;
     font-family: $title-font-family;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
 }

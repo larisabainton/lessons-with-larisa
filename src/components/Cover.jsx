@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 const Cover = () => {
     return (
         <div className="cover">
-            <StaticImage src="../images/cover.png" alt="Room with instruments"/>
+            <StaticImage className="cover_image"src="../images/cover.png" alt="Room with instruments"/>
         </div>
     )
 }

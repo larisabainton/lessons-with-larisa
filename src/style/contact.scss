@@ -1,6 +1,9 @@
 .contact {
     display: flex;
     flex-direction: column;
+    background-color: $main-color;
+    padding: $section-padding;
+    justify-content: center;
 }
 
 .contact_title {
@@ -8,7 +11,29 @@
     font-family: $title-font-family;
 }
 
-.contact form {
+.contact_form form {
     display: flex;
     flex-direction: column;
+
+    input,
+    textarea {
+        background-color: $main-color;
+        font-family: $text-font-family;
+        font-size: $text-font-size;
+        border: none;
+        border-bottom: $dark-color 1px solid;
+
+        :focus {
+            border: $dark-color 1px solid;
+        }
+    }
+
+    ::placeholder {
+        color: $dark-color;
+    }
+}
+
+.contact_form button {
+    background-color: $dark-color;
+    color: $light-color;
 }

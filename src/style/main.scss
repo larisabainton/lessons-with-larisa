@@ -16,6 +16,8 @@ body {
     font-size: $text-font-size;
     font-family: $text-font-family;
     text-align: center;
+    margin: 0;
+    background-color: $background-color;
 }
 
 ul {
@@ -26,4 +28,5 @@ ul {
 footer {
     display: flex;
     justify-content: center;
+    background-color: $light-color;
 }

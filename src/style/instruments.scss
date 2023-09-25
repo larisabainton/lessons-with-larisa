@@ -1,3 +1,8 @@
+.instruments {
+    background-color: $light-color;
+    padding: $section-padding;
+}
+
 .instruments_title {
     font-size: $subtitle-1-font-size;
     font-family: $title-font-family;
@@ -14,4 +19,14 @@
 
 .instruments_list-item_title {
     font-size: $subtitle-2-font-size;
+}
+
+.instruments_list-item_text {
+    padding: $section-padding;
+}
+
+@media screen and (max-width: 600px) {
+    .instruments_list {
+        flex-direction: column;
+    }
 }

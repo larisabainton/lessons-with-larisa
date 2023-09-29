@@ -12,7 +12,7 @@
 .header_link-wrapper {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 25%;
 }
 
 .header a {
@@ -21,4 +21,10 @@
 
 .header a:visited {
     color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .header_link-wrapper {
+        display: none;
+    }
 }

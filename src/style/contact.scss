@@ -1,14 +1,21 @@
 .contact {
     display: flex;
-    flex-direction: column;
     background-color: $main-color;
-    padding: $section-padding;
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
     justify-content: center;
+    width: 100%;
 }
 
 .contact_title {
     font-size: $subtitle-1-font-size;
     font-family: $title-font-family;
+    width: 50%;
+}
+
+.contact_form {
+    width: 42%;
+    padding-right: 8%;
 }
 
 .contact_form form {
@@ -36,4 +43,13 @@
 .contact_form button {
     background-color: $dark-color;
     color: $light-color;
+    font-size: $subtitle-2-font-size;
+    width: 25%;
+    margin-top: $section-padding;
+}
+
+@media screen and (max-width: 600px) {
+    .contact_form button {
+        width: 100%;
+    }
 }

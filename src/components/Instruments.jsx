@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Guitar = () => {
     return (
-        <li className="instruments_list-item">
+        <li className="instruments_list-item" key="guitar description">
             <div className="instruments_list-item_image">
                 <StaticImage src="../images/guitar.jpg" alt="Larisa playing guitar" />
             </div>
@@ -17,7 +17,7 @@ const Guitar = () => {
 
 const Piano = () => {
     return (
-        <li className="instruments_list-item">
+        <li className="instruments_list-item" key="piano description">
             <div className="instruments_list-item_image">
                 <StaticImage src="../images/piano.png" alt="Person at the piano"/>
             </div>
@@ -31,7 +31,7 @@ const Piano = () => {
 
 const Voice = () => {
     return (
-        <li className="instruments_list-item">
+        <li className="instruments_list-item" key="voice description">
             <div className="instruments_list-item_image">
                 <StaticImage src="../images/voice.jpg" alt="Larisa performing in voice recital"/>
             </div>

@@ -7,6 +7,7 @@ $gap-space: 2vw;
 
     .gatsby-image-wrapper {
         width: 100%;
+        height: 40vh;
     }
 }
 
@@ -45,11 +46,6 @@ $gap-space: 2vw;
 
 .instruments_list-item_title {
     font-size: $subtitle-2-font-size;
-}
-
-.instruments_list-item_image img {
-    height: 40vh;
-    width: 100%;
 }
 
 ul {

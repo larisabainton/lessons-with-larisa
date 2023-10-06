@@ -17,10 +17,16 @@
     background-color: rgba(255,255,255,.5);
 }
 
-.cover_image {
+.cover_background {
     display: flex;
     align-items: stretch;
     position: absolute;
+    width: 100%;
+}
+
+.cover_image {
+    display: flex;
+    align-items: stretch;
     height: 80vh;
     width:100vw;
 }

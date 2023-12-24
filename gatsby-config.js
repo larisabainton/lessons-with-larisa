@@ -10,7 +10,6 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    `gatsby-plugin-recaptcha`,
     {
       resolve: "gatsby-omni-font-loader",
       options: {

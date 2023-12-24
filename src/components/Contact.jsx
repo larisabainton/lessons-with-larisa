@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="contact" id="contact">
             <div className="contact_title">Contact Me</div>
             <div className="contact_form">
-                <form method="post" action="https://getform.io/f/ad45fa58-d5f5-4bcf-88ec-79299a0bf6eb">
+                <form method="post" action="https://formspree.io/f/mwkgezkp">
                     <input type="text" aria-label="name" name="name" id="name" placeholder="Name" />
                     <input type="email" aria-label="email" name="email" id="email" placeholder="Email" />
                     <input type="text" aria-label="subject" name="subject" id="subject" placeholder="Subject" />

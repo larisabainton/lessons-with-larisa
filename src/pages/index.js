@@ -8,6 +8,7 @@ import Instruments from "../components/Instruments"
 import AgeDisclaimer from "../components/AgeDisclaimer"
 import Rates from "../components/Rates"
 import Contact from "../components/Contact"
+import SEO from "../components/SEO";
 
 const IndexPage = () => {
   return (
@@ -30,4 +31,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Lessons with Larisa</title>
+export const Head = () => <SEO />

@@ -4,7 +4,9 @@
 module.exports = {
   siteMetadata: {
     title: `Lessons with Larisa`,
+    description: 'Voice, piano, or guitar lessons for all ages. Flexible scheduling. Learn the best ways to practice to achieve your long-term goals. Lessons at your own pace.',
     siteUrl: `https://www.lessonswithlarisa.com`,
+    keywords: 'music lessons, voice lessons, guitar lessons, piano lessons, adult music lessons, child music lessons, kid music lessons, musical theater lessons, opera lessons,'
   },
   plugins: [
     "gatsby-plugin-sass",

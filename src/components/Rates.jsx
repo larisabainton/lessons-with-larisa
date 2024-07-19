@@ -1,6 +1,6 @@
 import React from "react";
 
-const hourlyRate = 90;
+const hourlyRate = 94;
 
 const Rates = () => {
     return (
@@ -13,7 +13,7 @@ const Rates = () => {
                 </li>
                 <li className="rates_list-item" key="45 minute rate">
                     <div className="rates_list-item_title">45 Minute Lesson</div>
-                    <div className="rates_list-item_price">${hourlyRate * .75}0</div>
+                    <div className="rates_list-item_price">${hourlyRate * .75}</div>
                 </li>
                 <li className="rates_list-item" key="60 minute rate">
                     <div className="rates_list-item_title">60 Minute Lesson</div>

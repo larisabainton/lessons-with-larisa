@@ -7,14 +7,16 @@
 .cover_title {
     position: relative;
     height: 100%;
-    width: 100%;
+    // width: 100%;
     z-index: 7;
     font-family: $title-font-family;
     font-size: $title-font-size;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: center;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.3);
+    padding-right: 10%;
 }
 
 .cover_background {

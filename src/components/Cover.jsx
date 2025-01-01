@@ -7,7 +7,11 @@ const Cover = () => {
             <div className="cover_background">
                 <StaticImage className="cover_image"src="../images/cover.jpg" alt="Room with instruments"/>
             </div>
-            <div className="cover_title">Voice, Piano, and Guitar Lessons</div>
+            <div className="cover_title">
+                <div>Voice,</div>
+                <div>Piano,</div>
+                <div>& Guitar Lessons</div>
+            </div>
         </div>
     )
 }

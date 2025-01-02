@@ -22,8 +22,8 @@ module.exports = {
         enableListener: true,
         preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
         web: [{
-          name: "DM Serif Display",
-          file: 'https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap'
+          name: "Darker Grotesque",
+          file: 'https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap'
         },{
           name: 'Caprasimo',
           file: 'https://fonts.googleapis.com/css2?family=Caprasimo&family=Rammetto+One&display=swap'

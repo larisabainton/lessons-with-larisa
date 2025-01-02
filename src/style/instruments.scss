@@ -42,6 +42,7 @@
     width: 50%;
 }
 
+.instruments_list-item_title,
 .instruments_list-item_description {
     padding: 3vw;
 }
@@ -56,11 +57,15 @@
             .instruments_list-item_image {
                 order: 1;
             }
+            .instruments_list-item_text {
+                order: 2;
+            }
         }
     }
 
     .instruments_list-item {
         flex-direction: column;
+        height: 100%;
     }
 
     .instruments_list-item_text,

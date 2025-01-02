@@ -18,9 +18,9 @@ const IndexPage = () => {
       </header>
       <main>
         <Cover />
-        <About />
         <Instruments />
         <AgeDisclaimer />
+        <About />
         <Rates />
         <Contact />
       </main>

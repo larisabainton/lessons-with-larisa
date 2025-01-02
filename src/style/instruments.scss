@@ -1,66 +1,70 @@
-$gap-space: 2vw;
 
 .instruments {
     background-color: $light-color;
-    padding-top: $section-margin;
-    padding-bottom: $section-margin;
 
     .gatsby-image-wrapper {
         width: 100%;
-        height: 40vh;
+        height: 100%;
     }
 }
-
-.instruments_title {
-    font-size: $subtitle-1-font-size;
-    font-family: $title-font-family;
-}
-
-.instruments_subtitle {
-    font-size: $subtitle-2-font-size;
-}
-
 .instruments_list {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    gap: $gap-space;
-    margin-left: $gap-space;
-    margin-right: $gap-space;
-
-    li:first-child {
-        background-color: $background-color;
-    }
+    gap: 2vh;
 
     li:nth-child(2) {
-        background-color: $secondary-color
-    }
-
-    li:last-child {
-        background-color: $main-color;
+        .instruments_list-item_image {
+            order: 2;
+        }
     }
 }
 
 .instruments_list-item {
-    flex: 1;
+    display: flex;
+    height: 65vh;
 }
 
 .instruments_list-item_title {
-    font-size: $subtitle-2-font-size;
-}
-
-ul {
-    padding-left: 0px;
+    font-size: $subtitle-1-font-size;
+    font-family: $title-font-family;
 }
 
 .instruments_list-item_text {
-    padding: $section-padding;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruments_list-item_text,
+.instruments_list-item_image {
+    width: 50%;
+}
+
+.instruments_list-item_description {
+    padding: 3vw;
 }
 
 @media screen and (max-width: 600px) {
     .instruments_list {
-        flex-direction: column;
         margin-left: 0px;
         margin-right: 0px;
         gap: 0px;
+
+        li:nth-child(2) {
+            .instruments_list-item_image {
+                order: 1;
+            }
+        }
+    }
+
+    .instruments_list-item {
+        flex-direction: column;
+    }
+
+    .instruments_list-item_text,
+    .instruments_list-item_image {
+        width: 100%;
     }
 }

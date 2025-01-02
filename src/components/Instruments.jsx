@@ -5,7 +5,7 @@ const Guitar = () => {
     return (
         <li className="instruments_list-item" key="guitar description">
             <div className="instruments_list-item_image">
-                <StaticImage src="../images/guitar.jpg" alt="Larisa playing guitar" />
+                <StaticImage src="../images/guitar.jpg" alt="5 string instruments on the wall" />
             </div>
             <div className="instruments_list-item_text">
                 <div className="instruments_list-item_title">Guitar</div>
@@ -19,7 +19,7 @@ const Piano = () => {
     return (
         <li className="instruments_list-item" key="piano description">
             <div className="instruments_list-item_image">
-                <StaticImage src="../images/piano.png" alt="Person at the piano"/>
+                <StaticImage src="../images/piano.jpg" alt="Piano close up"/>
             </div>
             <div className="instruments_list-item_text">
                 <div className="instruments_list-item_title">Piano</div>
@@ -33,7 +33,7 @@ const Voice = () => {
     return (
         <li className="instruments_list-item" key="voice description">
             <div className="instruments_list-item_image">
-                <StaticImage src="../images/voice.jpg" alt="Larisa performing in voice recital"/>
+                <StaticImage src="../images/voice.jpg" alt="Bust statue of Mozart"/>
             </div>
             <div className="instruments_list-item_text">
                 <div className="instruments_list-item_title">Voice</div>
@@ -46,8 +46,6 @@ const Voice = () => {
 const Instruments = () => {
     return (
         <div className="instruments">
-            <div className="instruments_title">Instruments</div>
-            <div className="instruments_subtitle">What You'll Learn</div>
             <ul className="instruments_list">
                 <Voice />
                 <Piano />

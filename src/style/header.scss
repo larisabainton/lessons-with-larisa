@@ -27,7 +27,17 @@
     color: black;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
+    .header_link {
+        display: none;
+    }
+    
+    .header_link-wrapper {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 530px) {  
     .header_link-wrapper {
         display: none;
     }

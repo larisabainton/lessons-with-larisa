@@ -2,6 +2,7 @@ import * as React from "react"
 import '../style/main.scss';
 
 import About from "../components/About"
+import BookingButton from "../components/bookingButton"
 import Cover from "../components/Cover"
 import Header from "../components/Header"
 import Instruments from "../components/Instruments"
@@ -13,6 +14,7 @@ import SEO from "../components/SEO";
 const IndexPage = () => {
   return (
     <div>
+      <BookingButton className="body_booking-button" />
       <header>
         <Header />
       </header>

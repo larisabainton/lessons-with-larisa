@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
+import BookingButton from "./bookingButton";
 
 const Header = () => {
     return (
@@ -12,6 +13,7 @@ const Header = () => {
                 <Link to="/#home" className="header_link">Home</Link>
                 <Link to="/#about" className="header_link">About Me</Link>
                 <Link to="/#contact" className="header_link">Contact</Link>
+                <BookingButton />
             </div>
         </div>
     )

@@ -14,15 +14,16 @@
 .header_link-wrapper {
     display: flex;
     justify-content: space-around;
-    width: 25%;
+    align-items: center;
+    width: 40%;
 }
 
-.header a {
+.header_link {
     text-decoration: none;
     color: black;
 }
 
-.header a:visited {
+.header_link:visited {
     color: black;
 }
 

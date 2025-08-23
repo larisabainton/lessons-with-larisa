@@ -1,6 +1,6 @@
 import React from "react";
 
-const hourlyRate = 94;
+const hourlyRate = 104;
 
 const Rates = () => {
     return (

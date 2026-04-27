@@ -1,0 +1,34 @@
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.location_image {
+    width: 50%;
+}
+
+.location_text {
+    padding: $section-padding;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.location_text_title {
+    font-size: $subtitle-1-font-size;
+    font-family: $title-font-family;
+    padding-bottom: 3vh;
+}
+
+@media screen and (max-width:1000px) {
+    .location {
+        flex-direction: column;
+    }
+    .location_image {
+        width: 100%;
+    }
+}

@@ -1,6 +1,11 @@
 .rates {
-    background-color: $light-color;
+    background-color: $third-color;
     padding: $section-padding;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .rates_title {
@@ -10,7 +15,8 @@
 
 .rates_list {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .rates_list-item_title {

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: $main-color;
+    height: 60vh;
 }
 
 .about_text {
@@ -15,7 +15,7 @@
     padding-bottom: 3vh;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px) {
     .about {
         flex-direction: column;
     }

@@ -9,6 +9,7 @@ import Instruments from "../components/Instruments"
 import AgeDisclaimer from "../components/AgeDisclaimer"
 import Rates from "../components/Rates"
 import Contact from "../components/Contact"
+import Location from "../components/Location"
 import SEO from "../components/SEO";
 
 const IndexPage = () => {
@@ -24,6 +25,7 @@ const IndexPage = () => {
         <AgeDisclaimer />
         <About />
         <Rates />
+        <Location />
         <Contact />
       </main>
       <footer>© {new Date().getFullYear()} Larisa Bainton</footer>

@@ -1,14 +1,13 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const BookingButton = ({ className }) => {
     return (
-        <a 
+        <Link 
             className={`${className || ''} booking-button`}
-            target="_top" 
-            href="https://app.squareup.com/appointments/book/09cs812tn2qlet/LZ206ZVAYTJCT/start" 
-            rel="nofollow">
-        Book Now   
-        </a>
+            to="/calendar">
+        Book Now
+        </Link>
     )
 }
 

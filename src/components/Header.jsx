@@ -7,12 +7,11 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header-logo">
-                <StaticImage className="header-title"src="../images/title.png" alt="Lessons with Larisa"/>
+                <Link to="/"><StaticImage className="header-title"src="../images/title.png" alt="Lessons with Larisa"/></Link>
             </div>
             <div className="header_link-wrapper">
-                <Link to="/#home" className="header_link">Home</Link>
-                <Link to="/#about" className="header_link">About Me</Link>
-                <Link to="/#contact" className="header_link">Contact</Link>
+                <Link to="/signup" className="header_link">Sign Up</Link>
+                <Link to="/login" className="header_link">Student Portal</Link>
                 <BookingButton />
             </div>
         </div>

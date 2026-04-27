@@ -1,7 +1,7 @@
 .rates {
     background-color: $third-color;
     padding: $section-padding;
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,4 +21,16 @@
 
 .rates_list-item_title {
     font-size: $subtitle-2-font-size;
+}
+
+@media screen and (max-width:650px) {
+    .rates_list {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .rates_list-item {
+        padding: 10px;
+    }
+    
 }

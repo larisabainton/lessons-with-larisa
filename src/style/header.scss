@@ -1,9 +1,12 @@
+$menu-border: 1px solid $main-color;
+$header-height: 75px;
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
     background-color: $header-background-color;
+    height: $header-height;
 }
 
 .header-logo {
@@ -11,7 +14,7 @@
     width: 400px;
 }
 
-.header_link-wrapper {
+.header_desktop-links .header_link-wrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,18 +30,53 @@
     color: black;
 }
 
-@media screen and (max-width: 950px) {
-    .header_link {
+.header_menu {
+    display: none;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu_image {
+    height: 50px;
+    width: 50px;
+    margin-right: 2vw;
+}
+
+.header_menu-links {
+    display: none;
+    flex-direction: column;
+    z-index: 30;
+    position: absolute;
+    background-color: white;
+    border-left: $menu-border;
+    border-bottom: $menu-border;
+    top: $header-height;
+    right: 0px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 2%;
+    gap: 1vh;
+}
+
+.header_menu:hover .header_menu-links {
+    display: flex;
+}
+
+@media screen and (max-width: 1025px) {
+    .header_desktop-links {
         display: none;
     }
-    
-    .header_link-wrapper {
-        justify-content: flex-end;
+
+    .header_menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
-@media screen and (max-width: 530px) {  
-    .header_link-wrapper {
-        display: none;
+@media screen and (max-width: 500px) { 
+    .menu_image {
+        width: 40px;
+        height: 40px;
     }
 }

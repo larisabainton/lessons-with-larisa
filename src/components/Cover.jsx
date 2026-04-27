@@ -5,7 +5,7 @@ const Cover = () => {
     return (
         <div className="cover">
             <div className="cover_background">
-                <StaticImage className="cover_image"src="../images/cover.jpg" alt="Room with instruments"/>
+                <StaticImage className="cover_image"src="../images/cover.png" alt="garden"/>
             </div>
             <div className="cover_title">
                 <div>Voice,</div>
